@@ -77,8 +77,8 @@ spec:
     spec:
       containers:
         - name: app
-          image: node-express-mongoose-demo:latest
-          imagePullPolicy: IfNotPresent
+          image: majid04/backend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
           env:
